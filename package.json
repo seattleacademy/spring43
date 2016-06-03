@@ -1,0 +1,30 @@
+{
+  "name": "spring43",
+  "version": "1.0.0",
+  "description": "websockets for robots -- real and simulated",
+  "main": "server.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/seattleacademy/spring43"
+  },
+  "keywords": [
+    "robots",
+    "web",
+    "sockets"
+  ],
+  "author": "Gary Anderson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seattleacademy/spring43/issues"
+  },
+  "homepage": "https://github.com/seattleacademy/spring43",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "cors": "^2.7.1",
+    "express": "^4.13.4",
+    "ws": "^1.1.0"
+  }
+}
